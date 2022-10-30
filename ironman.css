@@ -1,0 +1,160 @@
+body{
+    background: rgb(43,1,0);
+    background: linear-gradient(90deg, rgba(43,1,0,1) 4%, rgba(106,12,11,1) 32%, rgba(170,5,5,1) 59%, rgba(185,125,16,1) 100%);
+    max-width: 400vh;
+}
+.images{
+    display: flex;
+}
+#image img[src="ironman-4.png"]{
+    
+    height: 450px;
+    width: 450px;
+    margin-left:800px ;
+    float:right;
+    margin-top:90px;
+    position: fixed;
+    transition-duration: 2s;
+}
+#logo img[src="Marvel.png"]{
+    width:70px;
+    margin-left:110px ;
+    transition-duration: 2s;
+}
+.ironman{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 50px;
+    width: 300px;
+    transition-duration: 1s;
+    background-color: #4e0000;
+    box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    
+}
+.content{
+    margin-left: 110px;
+    margin-top: 70px;
+    width:600px;
+    height: 400px;
+    color: aliceblue;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 35px 50px rgba(255, 255, 255, 0.4);
+    
+}
+.line{
+    font-size: 10px;
+}
+
+.button button{
+    margin-top: 60px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+
+.button button:hover{
+    background-color: #e52e2e;
+    box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.ironman:hover{
+    width: 370px;
+    background-color: #e52e2e;
+    
+}
+
+#logo img[src="Marvel.png"]:hover{
+    background-color: #e52e2e;
+    box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+    color: #fff;
+    transform: translateY(7px);
+}
+
+#image img[src="ironman-4.png"]:hover{
+    box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+    color: #fff;
+    height: 550px;
+    width: 550px;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background: rgb(130,0,0);
+        background: linear-gradient(90deg, rgba(130,0,0,1) 26%, rgba(185,125,16,1) 60%);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+
+    }
+
+    #logo img[src="Marvel.png"]{
+        width:70px;
+        margin-left:10px ;
+        transition-duration: 2s;
+    }
+
+    .content{
+        margin-left: 30px;
+        margin-top: 70px;
+        width:300px;
+        height: 400px;
+        
+        
+    }
+
+    .ironman{
+        font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
+        color: aliceblue;
+        margin-top: 50px;
+        width: 100px;
+        height: 30px;
+        margin-left: 100px;
+        box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4);
+        color: #fff;
+    }
+
+    .ironman:hover{
+        font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
+        color: aliceblue;
+        margin-top: 50px;
+        width: 100px;
+        height: 30px;
+        margin-left: 100px;
+        box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+        color: #fff;
+        
+    }
+
+    .content{
+        font-size: 10px;
+        
+        
+    }
+    
+    .button button:hover{
+        background-color: #e52e2e;
+        box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+        color: #fff;
+        transform: translateY(7px);
+        
+        
+    }
+
+    .button button{
+        margin-left: 80px;
+        
+    }
+    
+
+
+}
